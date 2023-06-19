@@ -79,14 +79,14 @@ class LoginScreen extends StatelessWidget {
               children: [
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    foregroundColor: Colors.white,
-                    backgroundColor: Colors.transparent,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(100),
-                    ),
-                    side: const BorderSide(color: Colors.white),
-                    padding: const EdgeInsets.all(15),
-                  ),
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 20, horizontal: 50),
+                      foregroundColor: Colors.white,
+                      backgroundColor: Colors.transparent,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(100),
+                      ),
+                      side: const BorderSide(color: Colors.white)),
                   onPressed: () {},
                   child: const Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -94,27 +94,6 @@ class LoginScreen extends StatelessWidget {
                       Icon(Icons.login),
                       SizedBox(width: 5),
                       Text('Login'),
-                    ],
-                  ),
-                ),
-                const SizedBox(width: 10),
-                ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                    foregroundColor: Colors.white,
-                    backgroundColor: Colors.transparent,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(100),
-                    ),
-                    side: const BorderSide(color: Colors.white),
-                    padding: const EdgeInsets.all(15),
-                  ),
-                  onPressed: () {},
-                  child: const Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Icon(Icons.login),
-                      SizedBox(width: 5),
-                      Text('Cadastro'),
                     ],
                   ),
                 ),
