@@ -1,16 +1,16 @@
-# petshop
+ [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Flutter)](https://git.io/typing-svg)
 
-A new Flutter project.
+![](https://github.com/LuizaAlanis/pet-shop/blob/master/app.gif)
 
-## Getting Started
+#### :octocat: Installation
 
-This project is a starting point for a Flutter application.
+Clone the repository
 
-A few resources to get you started if this is your first Flutter project:
+```bash
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+git@github.com:LuizaAlanis/pet-shop.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
