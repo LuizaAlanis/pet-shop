@@ -16,7 +16,7 @@ class _SplashScreenState extends State<SplashScreen> {
     // Define um atraso de 5 segundos antes de navegar para a tela de login
     Timer(const Duration(seconds: 5), () {
       Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (_) => LoginScreen()),
+        MaterialPageRoute(builder: (_) => const LoginScreen()),
       );
     });
   }
